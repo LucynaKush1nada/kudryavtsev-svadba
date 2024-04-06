@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kudryavtsev-svadba/static/css/main.58b6acfb.css",
+    "main.js": "/kudryavtsev-svadba/static/js/main.51f9d4c3.js",
+    "static/media/lucida-sans-unicode.ttf": "/kudryavtsev-svadba/static/media/lucida-sans-unicode.b857aa89f6c4962d38d3.ttf",
+    "static/media/MYRIADPRO-REGULAR.OTF": "/kudryavtsev-svadba/static/media/MYRIADPRO-REGULAR.6c518fcde55bd3397d56.OTF",
+    "static/media/helveticaneuecyr_ultralight.otf": "/kudryavtsev-svadba/static/media/helveticaneuecyr_ultralight.ee85bd92152d792a8ec7.otf",
+    "index.html": "/kudryavtsev-svadba/index.html",
+    "main.58b6acfb.css.map": "/kudryavtsev-svadba/static/css/main.58b6acfb.css.map",
+    "main.51f9d4c3.js.map": "/kudryavtsev-svadba/static/js/main.51f9d4c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58b6acfb.css",
+    "static/js/main.51f9d4c3.js"
+  ]
+}
