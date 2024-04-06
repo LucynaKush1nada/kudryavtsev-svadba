@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Lucida";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lucida"), url("fonts/lucida-sans-unicode.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Helvetic";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Helvetic"),
+    url("fonts/helveticaneuecyr_ultralight.otf") format("otf");
+}
+
+@font-face {
+  font-family: "MYRIADPRO";
+  font-style: normal;
+  font-weight: 400;
+  src: local("MYRIADPRO"), url("fonts/MYRIADPRO-REGULAR.OTF") format("otf");
+}
+
+.lucida-text {
+  font-family: "Lucida", "Arial", sans-serif;
+}
+
+.helvetic-text {
+  font-family: "Helvetic", "Arial", sans-serif;
+}
+
+.myriadpro-text {
+  font-family: "MYRIADPRO", "Arial", sans-serif;
+}

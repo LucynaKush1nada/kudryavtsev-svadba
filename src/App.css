@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.question-item::after {
+  content: "";
+  position: absolute;
+  left: 40px;
+  border-top: 15px solid rgba(0, 0, 0, 0.075);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+.question-item {
+  background: rgba(0, 0, 0, 0.075);
+}
+
+.question-icon::before {
+  content: "\f10d";
+}
+
+@media (min-width: 320px) {
+  .map-box {
+    max-width: 320px;
+  }
+
+  .program-item-mobile {
+    display: block;
+  }
+
+  .program-item-desktop {
+    display: none;
+  }
+
+  .form-title {
+    font-size: 36px !important;
+  }
+
+  .invite-text {
+    font-size: 12.5px !important;
+    letter-spacing: 3px !important;
+  }
+
+  .invite-name-text {
+    font-size: 51.7px !important;
+    letter-spacing: 5px !important;
+  }
+
+  .happy-text {
+    font-size: 28.5px !important;
+  }
+
+  .happy-subtext {
+    font-size: 22.5px !important;
+  }
+
+  .form-text {
+    font-size: 25px !important;
+  }
+}
+
+@media (min-width: 767px) {
+  .map-box {
+    max-width: 767px;
+  }
+
+  .program-item-mobile {
+    display: none;
+  }
+
+  .program-item-desktop {
+    display: flex;
+  }
+
+  .form-title {
+    font-size: 71px !important;
+  }
+
+  .invite-text {
+    font-size: 18.5px !important;
+    letter-spacing: 10px !important;
+  }
+
+  .invite-name-text {
+    font-size: 71.7px !important;
+    letter-spacing: 10px !important;
+  }
+
+  .happy-text {
+    font-size: 38.5px !important; 
+  }
+
+  .happy-subtext {
+    font-size: 30.5px !important;
+  }
+
+  .form-text {
+    font-size: 32px !important;
+  }
+}
+
+@media (min-width: 1080px) {
+  .map-box {
+    max-width: 1080px;
+  }
+}
